@@ -41,7 +41,7 @@ ig=createSprite( 406,610,10,100);
 	World.add(world, packageBody);
 	console.log(packageBody);
 	
-
+console.log(packageBody);
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
