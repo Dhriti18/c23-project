@@ -29,7 +29,7 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-ig=createSprite( 406,640,10,100);
+ig=createSprite( 406,630,10,100);
 	
 	ig.visible="false";
 	
