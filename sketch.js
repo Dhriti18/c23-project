@@ -5,7 +5,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-var box1,box2,box3,world;
+var box1,box2,box3,world,ig;
 
 function preload()
 {
@@ -29,7 +29,11 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-
+ig=createSprite( 406,649,10,100);
+	
+	ig.visible="false";
+	
+	
 	engine = Engine.create();
 	world = engine.world;
 
@@ -67,7 +71,7 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
-	packageBody.collide(box3);
+	packageBody.collide(ig);
 	
   drawSprites();
  
