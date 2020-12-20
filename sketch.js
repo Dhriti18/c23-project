@@ -49,7 +49,7 @@ function setup() {
 	box1=new Boundary(340,620,20,100);
 
 	box2=new Boundary(470,620,20,100);
-	box3=new Boundary(406,649,117,20);
+	box3=new Boundary(406,649,107,20);
 
 
 
@@ -67,6 +67,8 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
+	packageBody.collide(box3);
+	
   drawSprites();
  
 }
