@@ -50,7 +50,7 @@ function setup() {
 
 	box2=new Boundary(480,580,20,100);
 	box3=new Boundary(410,619,117,20);
-
+Princess=new Object(400,400,10,100);
 
 
 
@@ -68,6 +68,8 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
+	
+	Princess.display();
   text("X" + mouseX + "Y" + mouseY, mouseX, mouseY);
   drawSprites();
  
