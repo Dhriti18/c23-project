@@ -50,7 +50,7 @@ function setup() {
 
 	box2=new Boundary(480,580,20,100);
 	box3=new Boundary(410,619,117,20);
-Princess=new Object(395,603,10,100);
+Princess=new Object(395,590,10,10);
 
 
 
